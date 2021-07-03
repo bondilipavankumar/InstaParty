@@ -1,0 +1,3167 @@
+// if(item.nam.length<1 && item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(false)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(false)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.nam.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(false)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.nam.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(false)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.nam.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(false)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.nam<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(false)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.nam<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(false)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(false)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.nam<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(false)
+
+
+        //     }
+        //     else if(item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(false)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(false)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(false)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(false)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(false)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(false)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(false)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(false)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(false)
+
+
+        //     }
+
+
+        //     //two err
+            
+        //     else if(item.nam.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+            
+        //     else if(item.short.length<1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(false)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.nam.length< 1&&item.forBuy.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(false)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.nam.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(false)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.nam.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(false)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(false)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(false)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(false)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(false)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(false)
+
+
+        //     }
+        //     //short
+            
+        //     else if(item.nam.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(false)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(false)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setNamError(true)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(false)
+        //     setQualityError(true)
+        //     setShortError(false)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(false)
+        //     setNamError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setNamError(true)
+        //     setOrgPriceError(false)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setNamError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(false)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setNamError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(false)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setNamError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(false)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setNamError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(false)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.nam.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setShortError(false)
+        //     setLongError(true)
+        //     setForBuyError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setNamError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(false)
+
+
+        //     }
+        //     //forBuy
+            
+           
+            
+            
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(false)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(false)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(false)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(false)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(false)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(false)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(false)
+        //     setSaleDepositError(true)
+
+
+        //     }
+        //     else if(item.short.length<1&&item.long.length< 1&&item.nam.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //         ){
+                    
+        //         alert("Please enter details")
+        //         setForBuyError(false)
+        //     setLongError(true)
+        //     setNamError(true)
+        //     setForRentError(true)
+        //     setQualityError(true)
+        //     setShortError(true)
+        //     setOrgPriceError(true)
+        //     setOrgRentError(true)
+        //     setOrgDepositError(true)
+        //     setSalePriceError(true)
+        //     setSaleRentError(true)
+        //     setSaleDepositError(false)
+
+
+        //     }
+
+        //   // for rent
+          
+          
+        
+        
+       
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.nam.length< 1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.nam.length< 1&&item.quality.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.Nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.Nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.Nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.nam.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setForRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setNamError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+
+        // //Quality
+        
+      
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setQualityError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setNamError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&&item.orgPrice.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setQualityError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setNamError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setQualityError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setNamError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setQualityError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setNamError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setQualityError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setNamError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.nam.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setQualityError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setNamError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // //Org Price
+       
+       
+       
+       
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.nam.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgPriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setNamError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.nam.length<1&& item.orgRent.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgPriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setNamError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.nam.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgPriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setNamError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.nam.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgPriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setNamError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.nam.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgPriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setNamError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // //OrgRent
+        
+        
+        
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.nam.length<1&&item.salePrice<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setNamError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.nam.length<1&&item.orgDeposit<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setNamError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.nam.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setNamError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.nam.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.saleRent<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgRentError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setNamError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // //Org Deposit
+        
+        
+       
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.nam<1&&item.saleRent<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgDepositError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setNamError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.nam<1&&item.salePrice<1&&item.saleDeposit<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgDepositError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setNamError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.nam.length<1&&item.salePrice.length<1&&item.saleRent.length<1&&item.saleDeposit.length<1 
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setOrgDepositError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setNamError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // //salePrice
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.nam.length<1&&item.saleDeposit.length<1
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setSalePriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setNamError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.nam.length<1&&item.saleRent.length<1&&item.saleDeposit.length<1 
+        //     ){
+                
+        //     alert("Please enter details")
+        //     setSalePriceError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setNamError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // //sale Rent
+        
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1&&item.saleDeposit.length<1           ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        
+
+        // //3 nam
+
+        // else if(item.short.length<1&&item.long.length< 1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1           ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.long.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }else if(item.short.length<1&&item.forBuy.length< 1&&item.long.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.long.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.long.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.long.length<1&& item.orgRent.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.false.length<1&&item.orgDeposit<1&&item.salePrice<1&&item.nam<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(false)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        //  else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.orgDeposit.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.orgDeposit.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.orgDeposit.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.orgDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.orgDeposit.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.salePrice.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.salePrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.salePrice.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.salePrice.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.salePrice.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.salePrice.length<1&&item.nam.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(true)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.orgDeposit.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.orgDeposit.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.orgDeposit.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.orgDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(false)
+
+
+        // }
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.saleDeposit.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.saleDeposit.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.saleDeposit.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.saleDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.saleDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forBuy.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(false)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // /// nam short
+
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.orgPrice.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.orgPrice.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.orgPrice.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // //num forBuy
+        
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.orgPrice.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.short.length<1&&item.saleDeposit.length< 1&&item.orgPrice.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(false)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+
+        // //nam for Rent
+        
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.short.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.short.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.short.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.short.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.short.length< 1&&item.quality.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.short.length< 1&&item.orgPrice.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(false)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // //nam quality
+        
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(false)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.forRent.length< 1&&item.short.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.short.length<1&&item.orgPrice.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.short.length<1&&item.orgPrice.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.short.length<1&&item.orgDeposit.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(false)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+
+        // //nam org price
+        
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+        // }
+        // //nam org rent
+        
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgPrice.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgRentError(false)
+        // setOrgPriceError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgPrice.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgPrice.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(true)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // //nam org deposit
+        
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(false)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgRent.length<1&&item.saleRent.length<1&&item.long.length<1&&item.orgDeposit.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(false)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgRent.length<1&&item.orgDeposit.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(true)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(false)
+        // setSaleDepositError(true)
+
+
+        // }
+        // else if(item.forBuy.length<1&&item.saleDeposit.length< 1&&item.forRent.length< 1&&item.quality.length<1&&item.short.length<1&& item.orgDeposit.length<1&&item.saleRent.length<1&&item.long.length<1&&item.salePrice.length<1&&item.saleDeposit.length<1          ){
+                
+        //     alert("Please enter details")
+        //     setNamError(false)
+        // setLongError(true)
+        // setForBuyError(true)
+        // setForRentError(true)
+        // setQualityError(true)
+        // setShortError(true)
+        // setOrgPriceError(false)
+        // setOrgRentError(false)
+        // setOrgDepositError(true)
+        // setSalePriceError(true)
+        // setSaleRentError(true)
+        // setSaleDepositError(true)
+
+        // }
+        
+       
+        
+       
+      
+        
+        
+
+        // else if(item.nam.length < 1 ){ 
+        //     alert("Please Enter Name")
+        //     setNamError(true)
+
+
+
+        // }
+        // else if( item.short.length < 1){
+        //     alert("Please Enter Short Description")
+        //     setShortError(true)
+        // }
+        // else if(item.long.length< 1){
+        //     alert("Please Enter Long Description")
+        //     setLongError(true)
+
+        // }
+
+        // else if(item.forBuy.length< 1){
+        //     alert("Please Check The details")
+        //     setForBuyError(true)
+
+        // }
+        // else if( item.forRent.length< 1){
+        //     alert("Please Check The details")
+
+        //     setForRentError(true)
+
+        // }
+        // else if(item.quality.length<1){
+        //     alert("Please Check The details")
+
+        //     setQualityError(true)
+
+        // }
+        // else if(item.orgPrice.length<1){
+        //     alert("Please Check The details")
+
+        //     setOrgPriceError(true)
+
+        // }
+        // else if(item.orgRent.length<1){
+        //     alert("Please Check The details")
+
+        //     setOrgRentError(true)
+
+        // }
+        // else if(item.orgDeposit<1){
+        //     alert("Please Check The details")
+
+        //     setOrgDepositError(true)
+
+
+        // }
+        // else if(item.salePrice<1){
+        //     alert("Please Check The details")
+
+        //     setSalePriceError(true)
+
+
+        // }
+        // else if(item.saleRent<1){
+        //     alert("Please Check The details")
+
+        //     setSaleRentError(true)
+
+
+        // }
+        // else if(item.saleDeposit<1){
+        //     alert("Please Check The details")
+
+        //     setSaleDepositError(true)
+
+
+        // }
+
+
+
+        //gate add new
+        
+
+    
+    // async function addNew(){
+    //     let item = {nam,short,catId,long,prodId,forBuy,forRent,quality,orgPrice,orgRent,orgDeposit,salePrice,saleRent,saleDeposit}
+        
+        
+    //     await fetch(`https://apis-instaparty.herokuapp.com/product/add`,{
+    //         method:"POST",
+    //         headers: {
+    //             "x-api-key": "XXtyr$V4Cpeqf4ANyWq8xI3O687eB1GGBCXrc13P4x^UMu@#t8o24gTFvls7d8#1QTGKFYawzPx6F5owRVfMzGlkaa7iy8ZT319Z",
+    //             "admin_password": "InstaParty^2021*^",
+    //             "Content-Type": "application/json"
+    //           },
+    //         body:(JSON.stringify({
+    //             "name":item.nam,
+    //             "short_desc":item.short,
+    //             "long_desc":item.long,
+    //             "quantity":item.quality,
+    //             "orig_price":item.orgPrice,
+    //             "original_rent":item.orgRent,
+    //             "original_deposit":item.orgDeposit,
+    //             "sale_price":item.salePrice,
+    //             "sale_deposit":item.saleDeposit,
+    //             "sale_rent":item.saleRent,
+    //             "for_buy":item.forBuy,
+    //             "for_rent":item.forRent
+    //         })
+    //     )
+
+
+    //     }).then((result)=>{
+    //         result.json()
+    //         .then((resp)=>{
+    //             console.log(resp.data)
+    //         })
+    //     })
+        
+    // }
