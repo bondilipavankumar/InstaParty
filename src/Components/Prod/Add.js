@@ -1,11 +1,14 @@
 import React,{useState,useEffect} from 'react'
 import { TextField,Button,Typography,Paper } from '@material-ui/core'
 import FileBase from 'react-file-base64'
+import { MenuItem,FormControl,Select } from '@material-ui/core'
+
 import './Add.css'
 import Modl from './Modal'
 import { AlarmTwoTone, Note } from '@material-ui/icons'
 import ReactQuill from 'react-quill'
 import 'react-quill/dist/quill.snow.css';
+import axios from 'axios'
 
 
 
@@ -23,7 +26,7 @@ const Form = () => {
     const [orgDeposit,setOrgDeposit] = useState("")
     const [saleRent,setSaleRent] = useState("")
     const [saleDeposit,setSaleDeposit] = useState("")
-
+    const [catId,setCatId] = useState("")
     const [file,setFile] = useState("")
     const [namError,setNamError]=useState(false)
     const [shortError,setShortError]=useState(false)
@@ -37,12 +40,37 @@ const Form = () => {
     const [saleRentError,setSaleRentError]=useState(false)
     const [saleDepositError,setSaleDepositError]=useState(false)
     const [orgRentError,setOrgRentError]=useState(false)
+    const [categorys,setCategorys] = useState([])
+    const [coun,setCoun] = useState('Category')
 
+
+    useEffect(()=>{
+        const getCategs =() =>{
+            axios.get("https://apis-instaparty.herokuapp.com/category/all",{
+                
+                headers:{
+                    'x-api-key':'XXtyr$V4Cpeqf4ANyWq8xI3O687eB1GGBCXrc13P4x^UMu@#t8o24gTFvls7d8#1QTGKFYawzPx6F5owRVfMzGlkaa7iy8ZT319Z'
+                }
+            })
+            .then(res=>res.data.data)
+            // .then(result=>{console.log(result)})
+            .then((result=>{
+                const categorys = result.map((category)=>(
+                    {
+                        id:category.cat_id,
+                        name:category.name
+                    }
+                ))
+                setCategorys(categorys)
+            }))
+        }
+        getCategs()
+    },[])
 
 
 
     async function addNew(){
-        let item = {nam,short,long,forBuy,forRent,quality,orgPrice,orgRent,orgDeposit,salePrice,saleRent,saleDeposit}
+        let item = {nam,short,long,forBuy,forRent,quality,orgPrice,orgRent,orgDeposit,salePrice,saleRent,saleDeposit,catId}
         
        
         
@@ -68,6 +96,7 @@ const Form = () => {
                     "sale_rent":item.saleRent,
                     "for_buy":item.forBuy,
                     "for_rent":item.forRent,
+                    "cat_id":item.catId
                 
                     })
                 )
@@ -110,7 +139,26 @@ const Form = () => {
         
     
 }
+
+const onCategoryChange = async (e) =>{
+    const categoryCode = e.target.value;
+
+    console.log('categoryCode',categoryCode)
+
+    setCoun(categoryCode)
+    setCatId(categoryCode)
+    // const url = `https://apis-instaparty.herokuapp.com/category/${categoryCode}`
+    // await fetch(url,{
+    //     headers:{
+    //         'x-api-key':'XXtyr$V4Cpeqf4ANyWq8xI3O687eB1GGBCXrc13P4x^UMu@#t8o24gTFvls7d8#1QTGKFYawzPx6F5owRVfMzGlkaa7iy8ZT319Z'
+    //     }
+    // })
+    // .then(res=>res.json())
+    // .then(result=>
+    //     setCatId(result.data.cat_id)
+    // )
     
+}
 
     // modal
 
@@ -119,6 +167,15 @@ const Form = () => {
         <div className="Add">
             <form  onSubmit={addNew}>
                 <Typography variant="h6">Create Product</Typography>
+                <FormControl> 
+                    <Select variant="outlined" onChange={onCategoryChange}  value={coun}>
+                        <MenuItem value="Category">Add Category</MenuItem>
+                    {categorys.map((category)=>(
+                    <MenuItem  value={category.id}>{category.name}</MenuItem>
+                ))}
+                    </Select>
+                </FormControl>
+                 
                 <TextField
                     name="name"
                     variant="outlined"
@@ -142,7 +199,7 @@ const Form = () => {
                 {shortError?<div style={{fontSize:20,color:"red"}}>
                 Plase fill Short Description
                 </div>:null}
-                {/* <TextField
+                <TextField
                     name="short_desc"
                     variant="outlined"
                     label="Long Desc" 
@@ -150,8 +207,8 @@ const Form = () => {
                     value={long} 
                     multiline={true}
                     onChange={(e)=>setLong(e.target.value)}
-                /> */}
-                <div className="long">
+                />
+                {/* <div className="long">
                 <ReactQuill
                  modules={Note.modules}
                  formats={Note.formats}
@@ -159,7 +216,7 @@ const Form = () => {
                  placeholder="Long"
                  onChange={e=>setLong(e)}
                  />
-                </div>
+                </div> */}
                
 
 

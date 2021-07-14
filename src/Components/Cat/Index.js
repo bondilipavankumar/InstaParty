@@ -198,7 +198,7 @@ const Index = () => {
                         <FormControl className="app__deopdown">
                             <Select variant="outlined" onChange={onCommentChange} value={comme}>
                                 <MenuItem value="All">All</MenuItem>
-                               {commentsData.map((comment)=>(
+                               {comments.map((comment)=>(
                                    <MenuItem value={comment.cat_id}>{comment.name}</MenuItem>
                                ))}
                             </Select>

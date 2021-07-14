@@ -10,7 +10,7 @@ const CatMod = () => {
     return (
         <div className="form" contained>
             <button onClick={()=> setModalOpen(true)} className="but"><b>Add Category</b></button>
-            <Modal isOpen={modalOpen}
+            <Modal isOpen={modalOpen} ariaHideApp={false}
              
              
             >

@@ -30,13 +30,16 @@ const Mod = ({comment,products}) => {
         <div>
             <button onClick={found}><b>Products</b></button>
 
-            <Modal isOpen={modalOpen}>
+            <Modal isOpen={modalOpen} ariaHideApp={false}
+            >
                 
             <table className="table">
              <thead>
                           <th>Name</th>
                           
                           <th>Short</th>
+                          <th>Long</th>
+                          <th>Quantity</th>
                       
                   </thead>
                   
@@ -49,7 +52,8 @@ const Mod = ({comment,products}) => {
                          <tr key={detail.cat_id}>
                      <td datalabel="name">{detail.name}</td>
                      <td datalabel="short Desc">{detail.short_desc}</td>
-                     <td></td>
+                     <td datalabel="long Desc">{detail.long_desc}</td>
+                     <td datalabel="quantity">{detail.quantity}</td>
 
                  </tr>
                  )

@@ -10,7 +10,7 @@ const Modl = () => {
     return (
         <div className="form" contained>
             <button onClick={()=> setModalOpen(true)} className="but"><b>Add Product</b></button>
-            <Modal isOpen={modalOpen}
+            <Modal isOpen={modalOpen} ariaHideApp={false}
              
              
             >

@@ -11,6 +11,7 @@ import { Form } from 'react-bootstrap'
 import Modl from './Modal'
 import renderHTML from 'react-render-html'
 import FileBase from 'react-file-base64'
+import ImageMod from './ImageMod'
 
 const Gate = () => {
     const [comments,setComments] = useState([])
@@ -31,6 +32,7 @@ const Gate = () => {
     const [saleRent,setSaleRent] = useState("")
     const [saleDeposit,setSaleDeposit] = useState("")
     const [catId,setCatId] = useState("")
+    const [imgMod,setImgMod] = useState([])
 
 
     const [prodId,setProdId] =  useState(null)
@@ -187,7 +189,9 @@ const Gate = () => {
 
                 }
             })
-            .then(res => res.data.data)
+            // .then(res=>console.log(res))
+            .then(res => res.data.data.documents)
+            
             .then(result => {
                 setComments(result)
             })
@@ -221,6 +225,28 @@ const Gate = () => {
             setPhotos({selectedFile:""})
             
         }
+
+        const selectImage = (comment)=>{
+            let item = comment.prod_id
+            fetch(`https://apis-instaparty.herokuapp.com/product/${item}`,{
+                method:'GET',
+                headers:{
+                    'x-api-key':'XXtyr$V4Cpeqf4ANyWq8xI3O687eB1GGBCXrc13P4x^UMu@#t8o24gTFvls7d8#1QTGKFYawzPx6F5owRVfMzGlkaa7iy8ZT319Z',
+                    "admin_password":"InstaParty^2021*^",
+
+                },
+            })
+            
+            .then(res=>res.json())
+            .then(json=>json.images.rows)
+            .then(result=>{
+                // setImgMod(result)
+                console.log(result)
+            })
+            
+            
+            
+        }
      
 
 
@@ -229,6 +255,7 @@ const Gate = () => {
 
     const commentsData = useMemo(()=>{
         let computedComments = comments;
+        // console.log(comments)
         if(search){
             computedComments = computedComments.filter(
                 comment => comment.name.toLowerCase().includes(search.toLowerCase())||
@@ -331,7 +358,7 @@ const Gate = () => {
 
                                 <td datalabel="Catt-id">{comment.cat_id}</td>
                                 <td datalabel="Name">{comment.name}</td>
-                                <td datalabel="Short"><p>{renderHTML(comment.short_desc)}</p></td>
+                                <td datalabel="Short"><p>{(comment.short_desc)}</p></td>
                                 <td datalabel="Long"><ul><li>{comment.long_desc}</li></ul></td>
                                 <td datalabel="Quantity">{comment.quantity}</td>
                                 <td datalabel="Original Price">{comment.orig_price  === null ? 0:comment.orig_price}</td>
@@ -346,7 +373,8 @@ const Gate = () => {
                                 {/* <td>{comment.img}</td> */}
                                 <td datalabel="For Buy">{(comment.for_buy === true) ? <MdCheck color="green"/>:<MdClose color="red"/>} </td>
                                 <td datalabel="For rent">{(comment.for_rent === true)  ?  <MdCheck color="green"/>:<MdClose color="red"/>}</td>
-                                <td><img src={comment.img_url} alt="no photo is given"/></td>
+                                <td><button onClick={()=>selectImage(comment)}>Image</button></td>
+                                {/* <td><ImageMod comment={comment} imgMod={imgMod}/></td> */}
                                 <td datalabel="operations">
                                     <div>
                                         <button onClick={()=> selectUser(comment)}>Update</button>
