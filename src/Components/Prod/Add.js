@@ -52,7 +52,7 @@ const Form = () => {
                     'x-api-key':'XXtyr$V4Cpeqf4ANyWq8xI3O687eB1GGBCXrc13P4x^UMu@#t8o24gTFvls7d8#1QTGKFYawzPx6F5owRVfMzGlkaa7iy8ZT319Z'
                 }
             })
-            .then(res=>res.data.data)
+            .then(res=>res.data.data.documents)
             // .then(result=>{console.log(result)})
             .then((result=>{
                 const categorys = result.map((category)=>(
@@ -80,8 +80,8 @@ const Form = () => {
                 method:"POST",
                 headers: {
                     "x-api-key": "XXtyr$V4Cpeqf4ANyWq8xI3O687eB1GGBCXrc13P4x^UMu@#t8o24gTFvls7d8#1QTGKFYawzPx6F5owRVfMzGlkaa7iy8ZT319Z",
-                    "admin_password": "InstaParty^2021*^",
-                    "Content-Type": "application/json"
+                    "Admin_Authentication": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6eyJpZCI6MSwidXNlcl9pZCI6ImFyY3RvY2F0IiwidXNlcl9wYXNzd29yZCI6IjckMzVpRFhsV0xMbFplNyMkXnU4In0sImlhdCI6MTYyNjM1NzY5MiwiZXhwIjoxNjI4OTQ5NjkyfQ.64LvqVkJR_UUCq9o40BmnMm4ajI6lIcifzqYJIjpa1o",
+                "Content-Type": "application/json"
                 },
                 body:(JSON.stringify({
                     "name":item.nam,
